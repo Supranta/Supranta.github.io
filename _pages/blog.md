@@ -1,6 +1,6 @@
 ---
 layout: page
-title: blogs
+title: Blog
 permalink: /blogs/
 description: A growing collection of your cool projects.
 ---
