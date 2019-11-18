@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: blogs
+permalink: /blogs/
 description: A growing collection of your cool projects.
 ---
 
