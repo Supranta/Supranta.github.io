@@ -18,27 +18,27 @@
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
           {% if author.last == site.scholar.last_name %}
-            <em>{{author.last}}, {{author.first}}</em>
+            <b>{{author.last}}, {{author.first}}</b>
           {% else %}
             {{author.last}}, {{author.first}}
           {% endif %}
         {% else %}
           {% unless forloop.last %}
             {% if author.last == site.scholar.last_name %}
-              <em>{{author.last}}, {{author.first}}</em>,
+              <b>{{author.last}}, {{author.first}}</b>,
             {% else %}
               {% if site.data.coauthors[author.last] %}
-                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>, 
+                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
               {% else %}
                 {{author.last}}, {{author.first}},
               {% endif %}
             {% endif %}
           {% else %}
             {% if author.last == site.scholar.last_name %}
-              and <em>{{author.last}}, {{author.first}}</em>
+              and <b>{{author.last}}, {{author.first}}</b>
             {% else %}
               {% if site.data.coauthors[author.last] %}
-                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a> 
+                and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
               {% else %}
                 and {{author.last}}, {{author.first}}
               {% endif %}
@@ -54,9 +54,6 @@
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
     {% endif %}
-    {% if entry.year %}
-      {{entry.year}}
-    {% endif %}
     </span>
   {% endif %}
 
@@ -67,8 +64,8 @@
   {% if entry.arxiv %}
     [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
   {% endif %}
-  {% if entry.html %}
-    [<a href="{{ entry.html }}" target="_blank">HTML</a>]
+  {% if entry.journallink %}
+    [<a href="{{ entry.journallink }}" target="_blank">Journal</a>]
   {% endif %}
   {% if entry.pdf %}
     [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]

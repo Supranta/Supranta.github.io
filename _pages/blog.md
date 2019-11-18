@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 permalink: /blogs/
-description: A growing collection of your cool projects.
+description: Blogs about cool statistical/mathematical methods
 ---
 
 {% for project in site.projects %}

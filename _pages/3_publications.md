@@ -3,10 +3,10 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications and preprints
-years: [2019,2018,2017]
+status: [In Preparation, Preprint, Published]
 ---
 
-{% for y in page.years %}
-  <h3 class="year">{{y}}</h3>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% for s in page.status %}
+  <h3 class="year">{{s}}</h3>
+  {% bibliography -f papers -q @*[year={{s}}]* %}
 {% endfor %}

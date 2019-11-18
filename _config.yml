@@ -28,8 +28,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: Supranta S. Boruah # your Google Scholar ID
+orcid_id: 0000-0003-0985-1488 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -102,7 +102,7 @@ plugins:
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Boruah
 
   style: apa
   locale: en
