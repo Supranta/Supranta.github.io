@@ -5,7 +5,8 @@ permalink: /blogs/
 description: Blogs about cool statistical/mathematical methods
 ---
 
-{% for project in site.projects %}
+Under Construction. Coming soon......
+<!-- {% for project in site.projects %}
 
 {% if project.redirect %}
 <div class="project">
@@ -45,4 +46,4 @@ description: Blogs about cool statistical/mathematical methods
 
 {% endif %}
 
-{% endfor %}
+{% endfor %} -->
