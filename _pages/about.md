@@ -16,6 +16,6 @@ I am a PhD student at the [Department of Applied Mathematics](https://uwaterloo.
 
 I am interested in different aspects of observational cosmology. I use interesting statistical and computational tools in my research which has also led me to be interested in Bayesian inference and machine learning methods. You can find more about my research interests in the [research](/research/) page.
 
-I sometimes blog about technical issues which I think might help explain some concepts, but the existing literature maybe poor. You can find them in my [blog](/blogs/). 
+I sometimes blog about technical issues which I think might help explain some concepts, but the existing literature maybe poor. You can find them in my [blog](/blogs/).
 
 You can find my Curriculum Vitae [here](/assets/pdf/supranta_cv.pdf)

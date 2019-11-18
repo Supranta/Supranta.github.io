@@ -6,7 +6,8 @@ description: Blogs about cool statistical/mathematical methods
 ---
 
 Under Construction. Coming soon......
-<!-- {% for project in site.projects %}
+
+<!--  {% for project in site.projects %}
 
 {% if project.redirect %}
 <div class="project">

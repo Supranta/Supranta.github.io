@@ -17,7 +17,7 @@ We also compiled a new compilation of low redshift supernovae to use as a peculi
 
 **Forward-modelled reconstruction of the large-scale structure:**
 
-<img src="{{ site.baseurl }}/assets/img/research/density_slice_sampling.gif" width="700" height="800" alt="" title="borg_gif"/>
+<img src="{{ site.baseurl }}/assets/img/research/density_slice_sampling.gif" width="700" height="750" alt="" title="borg_gif"/>
 
 **Multimessenger cosmology:**
 
