@@ -1,12 +1,12 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: Supranta S. Boruah
+description:
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: profile_pic.jpg
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>
