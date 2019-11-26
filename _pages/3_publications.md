@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications and preprints
-status: [In Preparation, Preprint, Published]
+status: [In Preparation, Preprints, Published]
 ---
 
 {% for s in page.status %}
