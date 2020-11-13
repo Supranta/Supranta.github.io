@@ -1,0 +1,7 @@
+Change stuff on the source branch of git.
+
+.md files on _pages directory is where most of the action happen
+
+_bibliography/paper.bib maybe useful if you want to list your publications
+
+ 
