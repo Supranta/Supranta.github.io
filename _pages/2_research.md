@@ -13,7 +13,7 @@ Standard methods of cosmological analysis rely on using summary statistics to in
 
 As a part of this research program, we have developed KaRMMa, a curved sky forward-modeled mass map reconstruction code (See [here](https://arxiv.org/pdf/2105.14699.pdf) and [here](https://arxiv.org/pdf/2210.12280.pdf)). In one of our recent [work](https://arxiv.org/pdf/2403.05484.pdf), we used KaRMMa to produce Bayesian mass maps with the Dark Energy Survey weak lensing data (See the figure below). 
 
-<img src="{{ site.baseurl }}/assets/img/research/KaRMMa_DES.png" width="700" height="500" alt="" title="karmma"/>
+<img src="{{ site.baseurl }}/assets/img/research/KaRMMA_DES.png" width="700" height="500" alt="" title="karmma"/>
 
 **Generative adversarial networks for fast weak lensing simulations**
 
